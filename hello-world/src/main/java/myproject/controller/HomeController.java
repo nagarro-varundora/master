@@ -1,8 +1,12 @@
 package myproject.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * Controller to expose views over http
+ * @author varundora
+ *
+ */
 @Controller
 public class HomeController {
 
